@@ -1,0 +1,11 @@
+<node>
+  <interface name="local.MyLight">
+    <property name="isOn" type="b" access="readwrite"/>
+    <signal name="lightChanged">
+    </signal>
+    <method name="turnOn">
+    </method>
+    <method name="turnOff">
+    </method>
+  </interface>
+</node>
